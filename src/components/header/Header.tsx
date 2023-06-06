@@ -8,7 +8,7 @@ const Header: React.FC = () => {
   return (
     <>
       <header className='flex flex-row p-20 justify-between items-center space-x-28 mt-12'>
-        <div className='flex flex-col w-[40%] space-y-24'>
+        <div className='flex flex-col w-[40%] space-y-12'>
           <div className='text-[45px] font-semibold flex flex-col space-y-4'>
             <div>
               <h1>Hello, I'm Fer.</h1>
@@ -36,7 +36,7 @@ const Header: React.FC = () => {
         </div>
         <div className='w-1/2'>
           <img
-            src='https://thinkinfoservices.com/wp-content/uploads/2021/02/react-native.png'
+            src='images/landingImage.png'
             alt=''
             className='w-[90%] h-auto max-w-[1200px]'
           />

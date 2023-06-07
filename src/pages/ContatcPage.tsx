@@ -1,7 +1,7 @@
 /** @format */
 
 const ContactPage: React.FC = () => {
-  return <div></div>;
+  return <div>Contact</div>;
 };
 
 export default ContactPage;

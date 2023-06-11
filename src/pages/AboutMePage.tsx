@@ -1,5 +1,3 @@
-/** @format */
-
 const AboutMePage: React.FC = () => {
   return (
     <main className="flex flex-1 flex-row p-12 space-x-12">

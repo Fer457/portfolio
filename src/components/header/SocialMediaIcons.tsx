@@ -1,5 +1,3 @@
-/** @format */
-
 const SocialMediaIcons: React.FC = () => {
   const commonStyles = 'rounded-full p-4 bg-[#202020] hover:bg-[#303030] cursor-pointer';
 

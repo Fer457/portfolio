@@ -14,7 +14,7 @@ export const experienceContent = {
     vx: {
       title: "React developer",
       place: "Voxelcare (Jul 2022 - Jun 2023) - 1 yr",
-      text: "Nextjs, React, Agile, Kanban, Jest, Typescript",
+      text: "Migrating a large AngularJS project to React using Next.js, TypeScript, Tailwind CSS, and Jest. Additionally, I have worked with Agile methodologies and Kanban.",
     },
   },
 } as const;

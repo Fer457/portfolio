@@ -24,7 +24,9 @@ const Navbar: React.FC = () => {
     <nav className="bg-[#1d1d1d] flex flex-row p-4 items-center justify-between text-white sticky top-0">
       <div className="flex flex-row space-x-12 items-center text-[#b4b4b4]">
         <Link
-          className={`text-white ${location.pathname === "/" && commonStyles}`}
+          className={`${
+            location.pathname === "/" ? commonStyles : "text-white"
+          }`}
           to={"/"}
         >
           <h1 className="text-[25px] font-bold">Fernando Nevot</h1>
